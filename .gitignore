@@ -1,0 +1,57 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore compiled C++ files
+*.out
+*.o
+
+# Ignore compiled Ruby files
+*.gem
+*.rbc
+*.rbo
+*.rbs
+
+# Ignore log files and temp files
+*.log
+*.tmp
+
+# Ignore environment configuration files
+.env
+
+# Ignore IDE and editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore compiled binaries
+bin/
+obj/
+
+# Ignore package management files
+package-lock.json
+yarn.lock
+
+# Ignore Jekyll build directory
+_site/
+
+# Ignore virtual environment
+venv/
